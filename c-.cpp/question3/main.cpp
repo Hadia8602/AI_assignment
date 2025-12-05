@@ -12,10 +12,10 @@
     int a, b;
     a=10;
     b=30;
-    std::cout<<"the value of a before interchange"<< a <<std::endl;
-    std::cout<<"the value of b before interchange"<< b <<std::endl;
+    cout<<"the value of a before interchange"<< a <<endl;
+    cout<<"the value of b before interchange"<< b <<endl;
     interchange(a,b);
-    std::cout<<"the value of a after interchange"<< a <<std::endl;
-    std::cout<<"the value of b after interchange"<< b <<std::endl;
+    cout<<"the value of a after interchange"<< a <<endl;
+    cout<<"the value of b after interchange"<< b <<endl;
     return 0;
 }
